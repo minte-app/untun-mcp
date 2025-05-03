@@ -30,7 +30,7 @@ loadTunnels();
 const server = new McpServer(
   {
     name: "Untun Tunnel Manager",
-    version: "1.0.0",
+    version: "1.0.1",
     description: "Create and manage secure tunnels to local servers with ease.",
   },
   {
@@ -635,9 +635,13 @@ server.tool(
   },
 );
 
-// Connect server using stdio transport
-const transport = new StdioServerTransport();
-await server.connect(transport);
+async function main() {
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+  log("Untun Tunnel Manager started and ready to receive commands.");
+}
 
-// Use stderr for logging
-log("Untun Tunnel Manager started and ready to receive commands.");
+main().catch((error) => {
+  console.error("Fatal error in main():", error);
+  process.exit(1);
+});

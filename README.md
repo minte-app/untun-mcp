@@ -1,4 +1,4 @@
-# Untun MCP - Secure Tunnels for Local Servers [![NPM Version](https://img.shields.io/npm/v/mcp-untun-cloudflare.svg)](https://www.npmjs.com/package/mcp-untun-cloudflare) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+# Untun MCP - Secure Tunnels for Local Servers [![NPM Version](https://img.shields.io/npm/v/@minte-app/untun-mcp.svg)](https://www.npmjs.com/package/@minte-app/untun-mcp) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## ❌ Without Untun MCP
 Local development can be frustrating when you need to expose your server to the internet:
@@ -36,14 +36,14 @@ Paste the following configuration into your Cursor `~/.cursor/mcp.json` file:
   "mcpServers": {
     "untun": {
       "command": "npx",
-      "args": ["-y", "mcp-untun-cloudflare@latest"]
+      "args": ["-y", "@minte-app/untun-mcp@latest"]
     }
   }
 }
 ```
 
 ### Install in VS Code
-[Install in VS Code (npx)](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22untun%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mcp-untun-cloudflare%40latest%22%5D%7D)
+[Install in VS Code (npx)](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22untun%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40minte-app%2Funtun-mcp%40latest%22%5D%7D)
 
 Add this to your VS Code MCP config file:
 
@@ -53,7 +53,7 @@ Add this to your VS Code MCP config file:
     "Untun": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "mcp-untun-cloudflare@latest"]
+      "args": ["-y", "@minte-app/untun-mcp@latest"]
     }
   }
 }
@@ -67,7 +67,7 @@ Add this to your Claude Desktop `claude_desktop_config.json` file:
   "mcpServers": {
     "Untun": {
       "command": "npx",
-      "args": ["-y", "mcp-untun-cloudflare@latest"]
+      "args": ["-y", "@minte-app/untun-mcp@latest"]
     }
   }
 }

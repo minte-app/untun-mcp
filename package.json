@@ -6,7 +6,7 @@
   "types": "dist/src/index.d.ts",
   "type": "module",
   "bin": {
-    "untun-mcp": "./index.ts"
+    "untun-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,14 @@
     "mcp",
     "untun"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minte-app/untun-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/minte-app/untun-mcp/issues"
+  },
+  "homepage": "https://github.com/minte-app/untun-mcp#readme",
   "author": "Oliver Montes",
   "license": "",
   "dependencies": {
