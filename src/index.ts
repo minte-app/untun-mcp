@@ -30,7 +30,7 @@ loadTunnels();
 const server = new McpServer(
   {
     name: "Untun Tunnel Manager",
-    version: "1.0.1",
+    version: "1.0.2",
     description: "Create and manage secure tunnels to local servers with ease.",
   },
   {

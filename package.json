@@ -2,17 +2,18 @@
   "name": "@minte-app/untun-mcp",
   "version": "1.0.1",
   "description": "MCP server for untun integration",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "untun-mcp": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && chmod 755 dist/index.js",
     "format": "prettier --write .",
     "lint": "eslint \"**/*.{js,ts,tsx}\" --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/src/index.js",
     "dev": "tsc -w"
   },
