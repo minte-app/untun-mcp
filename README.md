@@ -2,6 +2,8 @@
 
 # Untun MCP - Secure Tunnels for Local Servers [![NPM Version](https://img.shields.io/npm/v/@minte-app/untun-mcp.svg)](https://www.npmjs.com/package/@minte-app/untun-mcp) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+[![smithery badge](https://smithery.ai/badge/@minte-app/untun-mcp)](https://smithery.ai/server/@minte-app/untun-mcp)
+
 ## ❌ Without Untun MCP
 Local development can be frustrating when you need to expose your server to the internet:
 
@@ -59,6 +61,14 @@ Add this to your VS Code MCP config file:
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install Untun Secure Tunnel Manager for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@minte-app/untun-mcp):
+
+```bash
+npx -y @smithery/cli install @minte-app/untun-mcp --client claude
 ```
 
 ### Install in Claude Desktop
