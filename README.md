@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/minte-app-untun-mcp-badge.png)](https://mseep.ai/app/minte-app-untun-mcp)
+
 # Untun MCP - Secure Tunnels for Local Servers [![NPM Version](https://img.shields.io/npm/v/@minte-app/untun-mcp.svg)](https://www.npmjs.com/package/@minte-app/untun-mcp) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## ❌ Without Untun MCP
