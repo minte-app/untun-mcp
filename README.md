@@ -2,7 +2,7 @@
 
 # Untun MCP - Secure Tunnels for Local Servers [![NPM Version](https://img.shields.io/npm/v/@minte-app/untun-mcp.svg)](https://www.npmjs.com/package/@minte-app/untun-mcp) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[![smithery badge](https://smithery.ai/badge/@minte-app/untun-mcp)](https://smithery.ai/server/@minte-app/untun-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.minte-app/untun-mcp)](https://lightnow.ai/servers/io.github.minte-app/untun-mcp)
 
 ## ❌ Without Untun MCP
 Local development can be frustrating when you need to expose your server to the internet:
